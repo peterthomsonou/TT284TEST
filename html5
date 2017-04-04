@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+
+        <meta charset="UTF-8" >
+
+        <link rel="stylesheet" href="introduction-to-html5.css">
+
+        <title>Introduction to HTML5</title>
+
+    </head>
+
+    <body><!--Comments and explanations in HTML code -->
+
+        <header><h2>Document header</h2><p>This document introduces some of the key semantic elements in HTML5</p>
+
+        <p>This is the document header. This document has been styled to show a border and a margin round every element, and padding between the element and its contents.</p>
+
+        </header>
+
+        <nav>Navigation elements within the page or between content pages in the same site.</nav>
+
+        <main>
+
+            <header>
+
+                <h1>Introduction to HTML5</h1>
+
+            </header>
+
+            <section><h2>A section, part of the main document.</h2></section>
+
+            <section><h2>Another section, Another part of the main document.</h2>
+
+                <section><h3>This is a subsection of the second section.</h3>
+
+                <aside role="note"><p>This is in an aside</p></aside>
+
+                </section></section>
+
+            <section>
+
+                <header><h2>This section has a header</h2><p>And content in the header</p></header><p>And content in the section</p>
+
+                <figure>
+
+                <img src="images/myimage.jpg" alt="my image">   
+
+                <figcaption>This is the caption for the image.</figcaption>
+
+                </figure>
+
+                <footer><p>This section also has a footer</p></footer>
+
+            </section>
+
+            <article><h2>An Article</h2><p>The article is an item that stands by itself - it might be used for content such as reviews or blog comments.</p></article>
+
+        </main>
+
+        <footer><p>This is the footer content for the whole page</p></footer>
+
+    </body>
+
+</html>
